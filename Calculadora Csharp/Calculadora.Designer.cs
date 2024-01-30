@@ -45,7 +45,6 @@
             button5 = new Button();
             button6 = new Button();
             button7 = new Button();
-            button8 = new Button();
             Btn_C = new Button();
             Btn_CE = new Button();
             Btn_Porcentagem = new Button();
@@ -54,7 +53,7 @@
             // Btn_1
             // 
             Btn_1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_1.Location = new Point(137, 421);
+            Btn_1.Location = new Point(36, 340);
             Btn_1.Name = "Btn_1";
             Btn_1.Size = new Size(53, 55);
             Btn_1.TabIndex = 0;
@@ -64,7 +63,7 @@
             // Btn_2
             // 
             Btn_2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_2.Location = new Point(220, 421);
+            Btn_2.Location = new Point(119, 340);
             Btn_2.Name = "Btn_2";
             Btn_2.Size = new Size(53, 55);
             Btn_2.TabIndex = 1;
@@ -74,7 +73,7 @@
             // Btn_3
             // 
             Btn_3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_3.Location = new Point(305, 421);
+            Btn_3.Location = new Point(204, 340);
             Btn_3.Name = "Btn_3";
             Btn_3.Size = new Size(53, 55);
             Btn_3.TabIndex = 2;
@@ -85,7 +84,7 @@
             // Btn_6
             // 
             Btn_6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_6.Location = new Point(305, 350);
+            Btn_6.Location = new Point(204, 269);
             Btn_6.Name = "Btn_6";
             Btn_6.Size = new Size(53, 55);
             Btn_6.TabIndex = 5;
@@ -95,7 +94,7 @@
             // Btn_5
             // 
             Btn_5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_5.Location = new Point(220, 350);
+            Btn_5.Location = new Point(119, 269);
             Btn_5.Name = "Btn_5";
             Btn_5.Size = new Size(53, 55);
             Btn_5.TabIndex = 4;
@@ -105,7 +104,7 @@
             // Btn_4
             // 
             Btn_4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_4.Location = new Point(137, 350);
+            Btn_4.Location = new Point(36, 269);
             Btn_4.Name = "Btn_4";
             Btn_4.Size = new Size(53, 55);
             Btn_4.TabIndex = 3;
@@ -115,7 +114,7 @@
             // Btn_9
             // 
             Btn_9.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_9.Location = new Point(305, 280);
+            Btn_9.Location = new Point(204, 199);
             Btn_9.Name = "Btn_9";
             Btn_9.Size = new Size(53, 55);
             Btn_9.TabIndex = 8;
@@ -125,7 +124,7 @@
             // Btn_8
             // 
             Btn_8.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_8.Location = new Point(220, 280);
+            Btn_8.Location = new Point(119, 199);
             Btn_8.Name = "Btn_8";
             Btn_8.Size = new Size(53, 55);
             Btn_8.TabIndex = 7;
@@ -135,7 +134,7 @@
             // Btn_7
             // 
             Btn_7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_7.Location = new Point(137, 280);
+            Btn_7.Location = new Point(36, 199);
             Btn_7.Name = "Btn_7";
             Btn_7.Size = new Size(53, 55);
             Btn_7.TabIndex = 6;
@@ -144,7 +143,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(137, 153);
+            textBox1.Location = new Point(36, 54);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(316, 23);
             textBox1.TabIndex = 9;
@@ -153,7 +152,7 @@
             // Btn_Divisao
             // 
             Btn_Divisao.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_Divisao.Location = new Point(400, 280);
+            Btn_Divisao.Location = new Point(299, 199);
             Btn_Divisao.Name = "Btn_Divisao";
             Btn_Divisao.Size = new Size(53, 55);
             Btn_Divisao.TabIndex = 10;
@@ -164,7 +163,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(400, 421);
+            button2.Location = new Point(299, 340);
             button2.Name = "button2";
             button2.Size = new Size(53, 55);
             button2.TabIndex = 11;
@@ -175,37 +174,37 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(137, 494);
+            button3.Location = new Point(36, 413);
             button3.Name = "button3";
             button3.Size = new Size(53, 55);
             button3.TabIndex = 12;
-            button3.Text = "9";
+            button3.Text = "0";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
             button4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(220, 494);
+            button4.Location = new Point(119, 413);
             button4.Name = "button4";
             button4.Size = new Size(53, 55);
             button4.TabIndex = 13;
-            button4.Text = "9";
+            button4.Text = "00";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             button5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(305, 494);
+            button5.Location = new Point(204, 413);
             button5.Name = "button5";
             button5.Size = new Size(53, 55);
             button5.TabIndex = 14;
-            button5.Text = "9";
+            button5.Text = ".";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
             button6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(400, 350);
+            button6.Location = new Point(299, 269);
             button6.Name = "button6";
             button6.Size = new Size(53, 55);
             button6.TabIndex = 15;
@@ -215,26 +214,17 @@
             // button7
             // 
             button7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(400, 494);
+            button7.Location = new Point(299, 413);
             button7.Name = "button7";
             button7.Size = new Size(53, 55);
             button7.TabIndex = 16;
             button7.Text = "=";
             button7.UseVisualStyleBackColor = true;
             // 
-            // button8
-            // 
-            button8.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(400, 192);
-            button8.Name = "button8";
-            button8.Size = new Size(53, 55);
-            button8.TabIndex = 17;
-            button8.UseVisualStyleBackColor = true;
-            // 
             // Btn_C
             // 
             Btn_C.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_C.Location = new Point(305, 192);
+            Btn_C.Location = new Point(204, 111);
             Btn_C.Name = "Btn_C";
             Btn_C.Size = new Size(53, 55);
             Btn_C.TabIndex = 18;
@@ -244,7 +234,7 @@
             // Btn_CE
             // 
             Btn_CE.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_CE.Location = new Point(220, 192);
+            Btn_CE.Location = new Point(119, 111);
             Btn_CE.Name = "Btn_CE";
             Btn_CE.Size = new Size(53, 55);
             Btn_CE.TabIndex = 19;
@@ -254,7 +244,7 @@
             // Btn_Porcentagem
             // 
             Btn_Porcentagem.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Btn_Porcentagem.Location = new Point(137, 192);
+            Btn_Porcentagem.Location = new Point(36, 111);
             Btn_Porcentagem.Name = "Btn_Porcentagem";
             Btn_Porcentagem.Size = new Size(53, 55);
             Btn_Porcentagem.TabIndex = 20;
@@ -265,11 +255,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(846, 600);
+            ClientSize = new Size(374, 477);
             Controls.Add(Btn_Porcentagem);
             Controls.Add(Btn_CE);
             Controls.Add(Btn_C);
-            Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
@@ -312,7 +301,6 @@
         private Button button5;
         private Button button6;
         private Button button7;
-        private Button button8;
         private Button Btn_C;
         private Button Btn_CE;
         private Button Btn_Porcentagem;
