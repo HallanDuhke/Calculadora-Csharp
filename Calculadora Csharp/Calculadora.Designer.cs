@@ -37,14 +37,14 @@
             Btn_9 = new Button();
             Btn_8 = new Button();
             Btn_7 = new Button();
-            textBox1 = new TextBox();
+            Txt_Painel = new TextBox();
             Btn_Divisao = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            Btn_Adicao = new Button();
+            Btn_0 = new Button();
+            Btn_00 = new Button();
+            Btn_Ponto = new Button();
+            Btn_Multiplicacao = new Button();
+            Btn_Igual = new Button();
             Btn_C = new Button();
             Btn_CE = new Button();
             Btn_Porcentagem = new Button();
@@ -141,13 +141,17 @@
             Btn_7.Text = "7";
             Btn_7.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Txt_Painel
             // 
-            textBox1.Location = new Point(36, 54);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(316, 23);
-            textBox1.TabIndex = 9;
-            textBox1.TextChanged += textBox1_TextChanged;
+            Txt_Painel.BackColor = SystemColors.InfoText;
+            Txt_Painel.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            Txt_Painel.ForeColor = Color.LimeGreen;
+            Txt_Painel.Location = new Point(12, 22);
+            Txt_Painel.Name = "Txt_Painel";
+            Txt_Painel.Size = new Size(340, 71);
+            Txt_Painel.TabIndex = 9;
+            Txt_Painel.TextAlign = HorizontalAlignment.Right;
+            Txt_Painel.TextChanged += textBox1_TextChanged;
             // 
             // Btn_Divisao
             // 
@@ -160,66 +164,66 @@
             Btn_Divisao.UseVisualStyleBackColor = true;
             Btn_Divisao.Click += button1_Click;
             // 
-            // button2
+            // Btn_Adicao
             // 
-            button2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(299, 340);
-            button2.Name = "button2";
-            button2.Size = new Size(53, 55);
-            button2.TabIndex = 11;
-            button2.Text = "+";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            Btn_Adicao.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_Adicao.Location = new Point(299, 340);
+            Btn_Adicao.Name = "Btn_Adicao";
+            Btn_Adicao.Size = new Size(53, 55);
+            Btn_Adicao.TabIndex = 11;
+            Btn_Adicao.Text = "+";
+            Btn_Adicao.UseVisualStyleBackColor = true;
+            Btn_Adicao.Click += button2_Click;
             // 
-            // button3
+            // Btn_0
             // 
-            button3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(36, 413);
-            button3.Name = "button3";
-            button3.Size = new Size(53, 55);
-            button3.TabIndex = 12;
-            button3.Text = "0";
-            button3.UseVisualStyleBackColor = true;
+            Btn_0.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_0.Location = new Point(36, 413);
+            Btn_0.Name = "Btn_0";
+            Btn_0.Size = new Size(53, 55);
+            Btn_0.TabIndex = 12;
+            Btn_0.Text = "0";
+            Btn_0.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Btn_00
             // 
-            button4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(119, 413);
-            button4.Name = "button4";
-            button4.Size = new Size(53, 55);
-            button4.TabIndex = 13;
-            button4.Text = "00";
-            button4.UseVisualStyleBackColor = true;
+            Btn_00.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_00.Location = new Point(119, 413);
+            Btn_00.Name = "Btn_00";
+            Btn_00.Size = new Size(53, 55);
+            Btn_00.TabIndex = 13;
+            Btn_00.Text = "00";
+            Btn_00.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Btn_Ponto
             // 
-            button5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(204, 413);
-            button5.Name = "button5";
-            button5.Size = new Size(53, 55);
-            button5.TabIndex = 14;
-            button5.Text = ".";
-            button5.UseVisualStyleBackColor = true;
+            Btn_Ponto.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_Ponto.Location = new Point(204, 413);
+            Btn_Ponto.Name = "Btn_Ponto";
+            Btn_Ponto.Size = new Size(53, 55);
+            Btn_Ponto.TabIndex = 14;
+            Btn_Ponto.Text = ".";
+            Btn_Ponto.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Btn_Multiplicacao
             // 
-            button6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(299, 269);
-            button6.Name = "button6";
-            button6.Size = new Size(53, 55);
-            button6.TabIndex = 15;
-            button6.Text = "x";
-            button6.UseVisualStyleBackColor = true;
+            Btn_Multiplicacao.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_Multiplicacao.Location = new Point(299, 269);
+            Btn_Multiplicacao.Name = "Btn_Multiplicacao";
+            Btn_Multiplicacao.Size = new Size(53, 55);
+            Btn_Multiplicacao.TabIndex = 15;
+            Btn_Multiplicacao.Text = "x";
+            Btn_Multiplicacao.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Btn_Igual
             // 
-            button7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(299, 413);
-            button7.Name = "button7";
-            button7.Size = new Size(53, 55);
-            button7.TabIndex = 16;
-            button7.Text = "=";
-            button7.UseVisualStyleBackColor = true;
+            Btn_Igual.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Btn_Igual.Location = new Point(299, 413);
+            Btn_Igual.Name = "Btn_Igual";
+            Btn_Igual.Size = new Size(53, 55);
+            Btn_Igual.TabIndex = 16;
+            Btn_Igual.Text = "=";
+            Btn_Igual.UseVisualStyleBackColor = true;
             // 
             // Btn_C
             // 
@@ -259,14 +263,14 @@
             Controls.Add(Btn_Porcentagem);
             Controls.Add(Btn_CE);
             Controls.Add(Btn_C);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(Btn_Igual);
+            Controls.Add(Btn_Multiplicacao);
+            Controls.Add(Btn_Ponto);
+            Controls.Add(Btn_00);
+            Controls.Add(Btn_0);
+            Controls.Add(Btn_Adicao);
             Controls.Add(Btn_Divisao);
-            Controls.Add(textBox1);
+            Controls.Add(Txt_Painel);
             Controls.Add(Btn_9);
             Controls.Add(Btn_8);
             Controls.Add(Btn_7);
@@ -293,14 +297,14 @@
         private Button Btn_9;
         private Button Btn_8;
         private Button Btn_7;
-        private TextBox textBox1;
+        private TextBox Txt_Painel;
         private Button Btn_Divisao;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button Btn_Adicao;
+        private Button Btn_0;
+        private Button Btn_00;
+        private Button Btn_Ponto;
+        private Button Btn_Multiplicacao;
+        private Button Btn_Igual;
         private Button Btn_C;
         private Button Btn_CE;
         private Button Btn_Porcentagem;
